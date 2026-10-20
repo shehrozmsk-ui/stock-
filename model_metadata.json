@@ -1,0 +1,17 @@
+{
+    "model_name": "Linear Regression",
+    "company": "AAPL",
+    "feature_columns": [
+        "close_lag_1",
+        "close_lag_2",
+        "close_lag_3",
+        "close_lag_5",
+        "close_lag_10"
+    ],
+    "target_column": "target_next_close",
+    "mae": 1.8986153101257806,
+    "rmse": 2.6805278834520094,
+    "r2": 0.9513629918782383,
+    "last_date": "2018-02-06",
+    "last_close": 163.03
+}
